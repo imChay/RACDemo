@@ -1,9 +1,9 @@
 //
 //  ViewController2.h
-//  ReactiveCocoa
+//  RACDemo
 //
-//  Created by cy on 15/10/27.
-//  Copyright © 2015年 cy. All rights reserved.
+//  Created by cy on 2017/2/10.
+//  Copyright © 2017年 cy. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

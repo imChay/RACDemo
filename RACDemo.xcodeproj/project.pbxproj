@@ -16,7 +16,10 @@
 		0136FB051E4C66D000C4A934 /* flags.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0136FB031E4C66D000C4A934 /* flags.plist */; };
 		0136FB0C1E4C6B3000C4A934 /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0136FB0B1E4C6B3000C4A934 /* RedView.m */; };
 		0136FB0E1E4C6B4A00C4A934 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0136FB0D1E4C6B4A00C4A934 /* Main.storyboard */; };
-		0136FB121E4C6DBA00C4A934 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0136FB111E4C6DBA00C4A934 /* ViewController2.m */; };
+		0136FB161E4D70BB00C4A934 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0136FB151E4D70BB00C4A934 /* ViewController2.m */; };
+		0136FB1D1E4D71E800C4A934 /* MBProgressHUD+XMG.m in Sources */ = {isa = PBXBuildFile; fileRef = 0136FB191E4D71E800C4A934 /* MBProgressHUD+XMG.m */; };
+		0136FB1E1E4D71E800C4A934 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0136FB1A1E4D71E800C4A934 /* MBProgressHUD.bundle */; };
+		0136FB1F1E4D71E800C4A934 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0136FB1C1E4D71E800C4A934 /* MBProgressHUD.m */; };
 		0C727216599CA7238629D89E /* Pods_RACDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB21CCBB37910A5DAC47974 /* Pods_RACDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,8 +39,13 @@
 		0136FB0A1E4C6B3000C4A934 /* RedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedView.h; sourceTree = "<group>"; };
 		0136FB0B1E4C6B3000C4A934 /* RedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedView.m; sourceTree = "<group>"; };
 		0136FB0D1E4C6B4A00C4A934 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		0136FB101E4C6DBA00C4A934 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
-		0136FB111E4C6DBA00C4A934 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		0136FB141E4D70BB00C4A934 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		0136FB151E4D70BB00C4A934 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		0136FB181E4D71E800C4A934 /* MBProgressHUD+XMG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+XMG.h"; sourceTree = "<group>"; };
+		0136FB191E4D71E800C4A934 /* MBProgressHUD+XMG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+XMG.m"; sourceTree = "<group>"; };
+		0136FB1A1E4D71E800C4A934 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		0136FB1B1E4D71E800C4A934 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		0136FB1C1E4D71E800C4A934 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		019A67617E8F202D687D8540 /* Pods-RACDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACDemo/Pods-RACDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		2DB21CCBB37910A5DAC47974 /* Pods_RACDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RACDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D83F52318CD84C374707E88F /* Pods-RACDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACDemo/Pods-RACDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -76,13 +84,7 @@
 		0136FAE91E4C5CC300C4A934 /* RACDemo */ = {
 			isa = PBXGroup;
 			children = (
-				0136FB0F1E4C6DA400C4A934 /* Controller */,
-				0136FB091E4C6B2800C4A934 /* View */,
-				0136FB061E4C66D300C4A934 /* Model */,
-				0136FAED1E4C5CC300C4A934 /* AppDelegate.h */,
-				0136FAEE1E4C5CC300C4A934 /* AppDelegate.m */,
-				0136FAF01E4C5CC300C4A934 /* ViewController.h */,
-				0136FAF11E4C5CC300C4A934 /* ViewController.m */,
+				0136FB131E4D6FE500C4A934 /* Classes */,
 				0136FB0D1E4C6B4A00C4A934 /* Main.storyboard */,
 				0136FAF61E4C5CC300C4A934 /* Assets.xcassets */,
 				0136FAF81E4C5CC300C4A934 /* LaunchScreen.storyboard */,
@@ -122,10 +124,37 @@
 		0136FB0F1E4C6DA400C4A934 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				0136FB101E4C6DBA00C4A934 /* ViewController2.h */,
-				0136FB111E4C6DBA00C4A934 /* ViewController2.m */,
+				0136FB141E4D70BB00C4A934 /* ViewController2.h */,
+				0136FB151E4D70BB00C4A934 /* ViewController2.m */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		0136FB131E4D6FE500C4A934 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0136FB171E4D71E800C4A934 /* MBProgressHUD */,
+				0136FB0F1E4C6DA400C4A934 /* Controller */,
+				0136FB091E4C6B2800C4A934 /* View */,
+				0136FB061E4C66D300C4A934 /* Model */,
+				0136FAED1E4C5CC300C4A934 /* AppDelegate.h */,
+				0136FAEE1E4C5CC300C4A934 /* AppDelegate.m */,
+				0136FAF01E4C5CC300C4A934 /* ViewController.h */,
+				0136FAF11E4C5CC300C4A934 /* ViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		0136FB171E4D71E800C4A934 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				0136FB181E4D71E800C4A934 /* MBProgressHUD+XMG.h */,
+				0136FB191E4D71E800C4A934 /* MBProgressHUD+XMG.m */,
+				0136FB1A1E4D71E800C4A934 /* MBProgressHUD.bundle */,
+				0136FB1B1E4D71E800C4A934 /* MBProgressHUD.h */,
+				0136FB1C1E4D71E800C4A934 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 		71B90C330F43E1973DB6B8EA /* Frameworks */ = {
@@ -208,6 +237,7 @@
 			files = (
 				0136FAFA1E4C5CC300C4A934 /* LaunchScreen.storyboard in Resources */,
 				0136FAF71E4C5CC300C4A934 /* Assets.xcassets in Resources */,
+				0136FB1E1E4D71E800C4A934 /* MBProgressHUD.bundle in Resources */,
 				0136FB051E4C66D000C4A934 /* flags.plist in Resources */,
 				0136FB0E1E4C6B4A00C4A934 /* Main.storyboard in Resources */,
 			);
@@ -268,12 +298,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0136FB1D1E4D71E800C4A934 /* MBProgressHUD+XMG.m in Sources */,
 				0136FAF21E4C5CC300C4A934 /* ViewController.m in Sources */,
 				0136FAEF1E4C5CC300C4A934 /* AppDelegate.m in Sources */,
 				0136FAEC1E4C5CC300C4A934 /* main.m in Sources */,
 				0136FB0C1E4C6B3000C4A934 /* RedView.m in Sources */,
 				0136FB041E4C66D000C4A934 /* Flag.m in Sources */,
-				0136FB121E4C6DBA00C4A934 /* ViewController2.m in Sources */,
+				0136FB161E4D70BB00C4A934 /* ViewController2.m in Sources */,
+				0136FB1F1E4D71E800C4A934 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
